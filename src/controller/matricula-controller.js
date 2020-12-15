@@ -1,5 +1,5 @@
 
-const matriculaHandler = require('../utils/random')
+const matriculaHandler = require('../handler/matricula-handler')
 
 module.exports = {
 
