@@ -11,7 +11,7 @@ module.exports = {
     },
 
     async store(req, res) {
-        return res.status(200).send(await Curso.criar(req.body.matricula, req.body));
+        return res.status(200).send(await Curso.criar(req.body.id, req.body));
     },
 
     async update(req, res) {
